@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <?define Desktop_TargetDir=$(var.Desktop.TargetDir)?>
+	<Product Id="*" Name="Installer" Language="1033" Version="1.0.0.0" Manufacturer="Classified Development" UpgradeCode="51b370c8-a3a6-4e36-ba35-e0218f707295">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="Installer" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="Installer" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+			<!-- <Component Id="ProductComponent"> -->
+				<!-- TODO: Insert files, registry keys, and other resources here. -->
+			<!-- </Component> -->
+		<Component Id="Archery_Document_Icon.ico" Guid="ad379f03-1eab-4273-992c-eddd50bf7fe3"><File Id="Archery_Document_Icon.ico" Name="Archery Document Icon.ico" Source="$(var.Desktop_TargetDir)Archery Document Icon.ico" /></Component><Component Id="Archery_Icon.ico" Guid="6336029e-896a-484e-9526-7436747e2fea"><File Id="Archery_Icon.ico" Name="Archery Icon.ico" Source="$(var.Desktop_TargetDir)Archery Icon.ico" /></Component><Component Id="Archery.exe" Guid="72b2a3b6-4602-4c98-a9db-a3b0d3d89a70"><File Id="Archery.exe" Name="Archery.exe" Source="$(var.Desktop_TargetDir)Archery.exe" /></Component><Component Id="Archery.exe.config" Guid="da495be6-be4b-444d-b5f6-044165345057"><File Id="Archery.exe.config" Name="Archery.exe.config" Source="$(var.Desktop_TargetDir)Archery.exe.config" /></Component></ComponentGroup>
+	</Fragment>
+</Wix>

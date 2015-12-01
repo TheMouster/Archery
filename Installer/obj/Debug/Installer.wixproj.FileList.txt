@@ -1,0 +1,7 @@
+obj\Debug\Product.wixobj
+D:\Repositories\Personal\Archery\Installer\bin\Debug\cab1.cab
+D:\Repositories\Personal\Archery\Installer\bin\Debug\Installer.msi
+D:\Repositories\Personal\Archery\Installer\bin\Debug\Installer.wixpdb
+obj\Debug\Installer.wixproj.BindContentsFileListnull.txt
+obj\Debug\Installer.wixproj.BindOutputsFileListnull.txt
+obj\Debug\Installer.wixproj.BindBuiltOutputsFileListnull.txt

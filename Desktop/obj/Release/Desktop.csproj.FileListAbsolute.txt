@@ -1,0 +1,12 @@
+D:\Repositories\Personal\Archery\Desktop\bin\Release\Archery.exe.config
+D:\Repositories\Personal\Archery\Desktop\bin\Release\Archery.exe
+D:\Repositories\Personal\Archery\Desktop\bin\Release\Archery.pdb
+D:\Repositories\Personal\Archery\Desktop\obj\Release\ClassifiedDevelopment.Archery.Properties.Resources.resources
+D:\Repositories\Personal\Archery\Desktop\obj\Release\Desktop.csproj.GenerateResource.Cache
+D:\Repositories\Personal\Archery\Desktop\obj\Release\Archery.exe
+D:\Repositories\Personal\Archery\Desktop\obj\Release\Archery.pdb
+D:\Repositories\Personal\Archery\Desktop\bin\Release\Resources\Archery Icon.ico
+D:\Repositories\Personal\Archery\Desktop\bin\Release\Resources\Archery Document Icon.ico
+D:\Repositories\Personal\Archery\Desktop\obj\Release\ClassifiedDevelopment.Archery.Archery.resources
+D:\Repositories\Personal\Archery\Desktop\obj\Release\ClassifiedDevelopment.Archery.frmArcheryFileCreator.resources
+D:\Repositories\Personal\Archery\Desktop\obj\Release\Desktop.csprojResolveAssemblyReference.cache

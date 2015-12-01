@@ -1,0 +1,4 @@
+D:\Repositories\Personal\Archery\Desktop\bin\Debug\Archery.exe
+D:\Repositories\Personal\Archery\Desktop\bin\Debug\Archery.exe.config
+D:\Repositories\Personal\Archery\Desktop\bin\Debug\Archery Document Icon.ico
+D:\Repositories\Personal\Archery\Desktop\bin\Debug\Archery Icon.ico
