@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ArchiveScript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Source>D:\Repositories\Git\Solutions\TracBase</Source>
+  <Destination>D:\Source Backups\TracBase ##FILEDATE##</Destination>
+</ArchiveScript>

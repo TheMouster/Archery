@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<ArchiveScript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Source>\\web07\inetpub\Samsung\TcB-RH</Source>
+  <Destination>D:\Production Website Archives\Web07\Samsung\TcB-RH ##FILEDATE##</Destination>
+</ArchiveScript>
